@@ -1,0 +1,216 @@
+body {
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: Roboto;
+    background: #FFFFFF;
+}
+
+.container {
+    max-width: 1250px;
+    margin: auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn {
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    background: #6F2CFF;
+    border-radius: 20px;
+    border: none;
+}
+.btn:hover {
+    cursor: pointer;
+}
+
+.navbar {
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+.header__navbuttons, .footer__navbuttons {
+    list-style: none;
+}
+
+a {
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.nav__li:not(:first-of-type) {
+    margin-left: 62px;
+}
+
+.header__navbuttons__item {
+    color: #1C1C1C;
+}
+
+.booking_standart {
+    width: 157px;
+    height: 40px;
+}
+
+.ecommerce {
+    background: #F6BED9;
+}
+
+.personal {
+    padding-top: 59px;
+    padding-bottom: 58px;
+}
+
+.about__ecommerce {
+    max-width: 472px;
+}
+
+h1 {
+    max-width: 470px;
+    margin: 0;
+    font-weight: 700;
+    font-size: 54px;
+}
+
+.ecommerce__title_black {
+    line-height: 61px;
+}
+
+.ecommerce__title_violet {
+    color: #6F2DFF;
+    line-height: 54px;
+    padding-bottom: 18px;
+}
+
+.ecommerce__usage {
+    max-width: 438px;
+    margin: 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding-bottom: 18px;
+}
+
+input {
+    width: 244px;
+    height: 45px;
+    background: #FFFFFF;
+    border: 1px solid #6F2CFF;
+    border-radius: 28px 28px 28px 27.5px;
+    box-sizing: border-box;
+    padding-left: 26px;
+}
+
+input::placeholder {
+    
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 21px;
+    color: rgba(0, 0, 0, 0.27);
+}
+
+input:focus {
+    outline: none;
+}
+
+.booking_big {
+    width: 187px;
+    height: 45px;
+    margin-left: 7px;
+}
+
+.main {
+    padding-top: 136px;
+}
+
+h2 {
+    font-size: 40px;
+    line-height: 45px;
+}
+
+.grow__faster {
+    margin-bottom: 136px;
+}
+
+.grow__title {
+    max-width: 415px;
+    padding-right: 132px;
+}
+
+.river__island {
+    max-width: 333px;
+    box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+    border-radius: 0px 0px 7px 7px;
+}
+
+.river__island__about {
+    width: 219px;
+    margin: auto;
+}
+
+.river__island__title {
+    margin: 0px;
+    padding-top: 35px;
+    padding-bottom: 27px;
+    font-weight: 400;
+    font-size: 26px;
+    text-align: center;
+}
+
+.river__island__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #6F2CFF;
+    padding-bottom: 82px;
+    margin: 0px;
+}
+
+.qubit__commerce__title {
+    padding-top: 30px;
+    text-align: center;
+    padding-bottom: 80px;
+}
+
+.more {
+    text-align: center;
+    padding-bottom: 136px;
+}
+
+.more div {
+    width: 316px;
+}
+
+.more__title {
+    padding-top: 45px;
+    padding-bottom: 16px;
+    font-weight: 700;
+    font-size: 19px;
+}
+
+.more__text {
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 22px;
+}
+
+.footer {
+    background: #20003C;
+}
+
+.footer__navbar {
+    padding-top: 58px;
+    padding-bottom: 58px;
+}
+.footer__navbuttons__item {
+    color: #FFFFFF;
+}
+
+.nav__footer__li {
+    padding-right: 74px;
+}
